@@ -1,0 +1,10 @@
+body {
+    color: #1B4F72;
+    background-color: #85C1E9;
+}
+
+.imagen {
+    width: 40%;
+    border: 1px solid #1B4F72;
+    float: right;
+}

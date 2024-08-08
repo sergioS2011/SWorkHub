@@ -1,0 +1,63 @@
+
+        header {
+            background-color: #e4c097;
+            color: white;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 1rem;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 0.1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        section {
+            padding: 2rem 0;
+            color: white;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #Europa {
+            background-color: #8dbeff;
+        }
+        #Asia {
+            background-color: #dbd02d;
+        }
+        #Africa {
+            background-color: #838383;
+        }
+        #Oceania {
+            background-color: #7dff83;
+        }
+        #America {
+            background-color: #ff6868;
+        }
+        main {
+            padding: 2rem;
+        }
+        .section-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+        .section-content > div {
+            flex: 1;
+            max-width: 500px;
+        }
+        .section-content img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 8px;
+        }
+
